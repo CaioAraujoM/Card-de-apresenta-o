@@ -1,0 +1,1 @@
+Este é meu card de apresentação digital, onde compartilho meu portfólio, meus projetos favoritos e minhas redes sociais. É um projeto em HTML, CSS e JavaScript, pensado para ser simples, responsivo e elegante.
