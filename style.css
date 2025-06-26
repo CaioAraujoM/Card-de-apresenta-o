@@ -1,9 +1,11 @@
+/* Reset e global */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
+/* Temas */
 :root {
   --text-color: white;
   --bg-url: url(./assents/bg-mobile.jpg);
@@ -11,7 +13,7 @@
   --surface-color: rgba(255, 255, 255, 0.05);
   --surface-color-hover: rgba(0, 0, 0, 0.02);
   --highlight-color: rgba(255, 255, 255, 0.2);
-  --switch-bg-ulr: url(./assents/moon-stars.svg);
+  --switch-bg-url: url(./assents/moon-stars.svg);
 }
 
 .light {
@@ -20,9 +22,9 @@
   --stroke-color: rgba(0, 0, 0, 0.5);
   --surface-color: rgba(0, 0, 0, 0.05);
   --surface-color-hover: rgba(0, 0, 0, 0.02);
-  --switch-bg-ulr: url(./assents/sun.svg);
+  --switch-bg-url: url(./assents/sun.svg);
 }
-
+/* Reset e global */
 body {
   /*background-image: url(./assents/bg-mobile.jpg);
     background-repeat: no-repeat;  
@@ -32,12 +34,12 @@ body {
   /*cover para cobrir a area preencher a tela, no repeat para nao repetirtop center para centralizar no valor x & y */
   background: var(--bg-url) no-repeat top center/cover;
 }
-
+/* Reset e global */
 body * {
   font-family: "Inter", sans-serif;
   color: var(--text-color);
 }
-
+/* Container */
 #container {
   width: 360px;
   margin: 56px auto 0px;
@@ -59,7 +61,7 @@ body * {
   margin-top: 8px;
 }
 
-/*switch*/
+/*switch tema*/
 #switch {
   position: relative;
   width: 64px;
@@ -68,9 +70,10 @@ body * {
 }
 
 #switch button {
+  cursor: pointer;
   width: 32px;
   height: 32px;
-  background: white var(--switch-bg-ulr) no-repeat center;
+  background: white var(--switch-bg-url) no-repeat center;
   border: 0;
   border-radius: 50%;
 
